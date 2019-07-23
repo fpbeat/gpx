@@ -1,0 +1,21 @@
+{
+    "name": "fpbeat/map-route",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roman Zhakhov",
+            "email": "beat@mail.ua"
+        }
+    ],
+    "require": {
+        "fenom/fenom": "^2.11.8",
+        "gambitph/titan-framework": "^1.12",
+        "sibyx/phpgpx": "dev-master",
+        "fightbulc/moment": "^1.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "MapRoute\\": "includes/"
+        }
+    }
+}
